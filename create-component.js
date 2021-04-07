@@ -70,9 +70,9 @@ export class ${cmpName} extends Component {
 
     render() {
         return (
-            <div>
+            <section>
             
-            </div>
+            </section>
         )
     }
 }
@@ -85,9 +85,9 @@ import './${cmpName}.${style}'
 export const ${cmpName} = (props) => {
 
     return (
-        <div>
+        <section>
         
-        </div>
+        </section>
     )
 }
 
