@@ -1,0 +1,40 @@
+.menu {
+    background-color: $clr2;
+    color: #fff;
+    padding-top: rem(200px);
+    padding-bottom: rem(120px);
+
+    .main-content {
+        justify-content: space-between;
+    }
+
+    .divide {
+        img {
+            width: 71px;
+            margin-bottom: rem(80px);
+        }
+    }
+
+    @include for-mobile-layout {
+        padding-top: rem(111px);
+        padding-bottom: rem(64px);
+
+        .main-content {
+            flex-direction: column;
+            text-align: center;
+
+            h2 {
+                font-size: rem(32px);
+            }
+        }
+
+        .divide {
+            text-align: center;
+
+            img {
+                width: 71px;
+                margin-bottom: rem(30px);
+            }
+        }
+    }
+}

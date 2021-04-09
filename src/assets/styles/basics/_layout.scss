@@ -1,8 +1,9 @@
-// .main-layout {
-    
-//     @include for-narrow-layout {
-          
-//     }
+.main-layout {
+	max-width: 1110px;
+	margin: 0 auto;
 
-// }
-
+	@include for-mobile-layout {
+		max-width: 100%;
+		margin: 0 20px;
+	}
+}

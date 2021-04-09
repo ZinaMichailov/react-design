@@ -1,0 +1,48 @@
+.intro-home-page {
+    .top-container {
+        margin-bottom: rem(120px);
+        
+        .intro-img {
+            width: 540px;
+            height: 720px;
+            background-image: url(../../img/homepage/enjoyable-place-desktop.jpg);
+            background-size: cover;
+        }
+    }
+    .low-container {
+        .intro-img {
+            width: 540px;
+            height: 720px;
+            background-image: url(../../img/homepage/locally-sourced-desktop.jpg);
+            background-size: cover;
+        }
+    }
+
+    @include for-mobile-layout {
+        .top-container {
+            flex-direction: column;
+            margin-bottom: rem(80px);
+            text-align: center;
+
+            .intro-img {
+                width: 327px;
+                height: 400px;
+                background-image: url(../../img/homepage/enjoyable-place-mobile.jpg);
+                margin-bottom: rem(48px);
+            }
+        }
+
+        .low-container {
+            flex-direction: column-reverse;
+            margin-bottom: rem(80px);
+            text-align: center;
+            
+            .intro-img {
+                width: 327px;
+                height: 400px;
+                background-image: url(../../img/homepage/locally-sourced-mobile.jpg);
+                margin-bottom: rem(48px);
+            }
+        }
+    }
+}

@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- 1. Layout כללי.
+2. הסקשן של ה pixel perfect .
+3. Responsive Layout.
+4. Mobile pixel perfect.
+5. כל החלקים באתר מוכנים.
+6. כל האתר ברמת pixel perfect. -->

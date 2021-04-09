@@ -1,0 +1,18 @@
+.more-intro-home-page {
+    padding: rem(160px) 0;
+
+    .intro-img {
+        width: 327px;
+        height: 400px;
+        background-image: url(../../img/homepage/family-gathering-desktop.jpg);
+    }
+
+    button {
+        margin-bottom: rem(78px);
+    }
+
+    @include for-mobile-layout {
+        flex-direction: column;
+        text-align: center;
+    }
+}

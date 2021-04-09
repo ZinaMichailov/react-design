@@ -3,11 +3,19 @@
 }
 
 html {
-    line-height: 1.6;
+    // line-height: 1.6;
 }
 
 body {
     margin: 0;
+    font-family: Spartan, sans-serif;
+    font-size: rem(18px);
+    line-height: rem(30px);
+
+    @include for-mobile-layout {
+        font-size: rem(15px);
+        line-height: rem(25px);
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,11 +24,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: rem(50px);
+    font-family: SpartanLight, sans-serif;
+    font-size: rem(64px);
+    line-height: rem(72px);
+    max-width: 10ch;
+
+    @include for-mobile-layout {
+        font-size: rem(32px);
+        line-height: rem(40px);
+    }
+}
+
+h2 {
+    font-family: SpartanBold, sans-serif;
+    font-size: rem(40px);
+    line-height: rem(56px);
+    max-width: 13ch;
+}
+
+h3 {
+    font-family: SpartanBold, sans-serif;
+    font-size: rem(18px);
+    line-height: rem(28px);
 }
 
 p {
-    max-width: 48ch;
+    // max-width: 48ch;
+    max-width: 30ch;
     margin: 0 0 1rem;
 }
 
@@ -31,4 +61,30 @@ img {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.dark-btn {
+    width: 245px;
+    height: 64px;
+    background-color: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+
+    &:hover {
+        background-color: #fff;
+        color: $clr2;
+    }
+}
+
+.light-btn {
+    width: 245px;
+    height: 64px;
+    background-color: inherit;
+    color: $clr2;
+    border: 1px solid $clr2;
+
+    &:hover {
+        background-color: $clr2;
+        color: #fff;
+    }
 }

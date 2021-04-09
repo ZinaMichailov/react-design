@@ -1,0 +1,7 @@
+.menu-list {
+    width: 500px;
+
+    @include for-mobile-layout {
+        width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+header {
+    padding-top: rem(65px);
+    background-image: url(../../img/homepage/hero-bg-desktop.jpg);
+    background-size: cover;
+
+    .logo {
+        width: 103px;
+        margin-bottom: rem(153px);
+    }
+
+    .main-content {
+        color: #fff;
+
+        .dark-btn {
+            margin-bottom: rem(198px);
+        }
+    }
+
+    @include for-mobile-layout {
+        padding-top: 0;
+		background-image: url(../../img/homepage/hero-bg-mobile.jpg);
+        background-size: contain;
+        text-align: center;
+
+        .header-container {
+            padding-top: rem(232px);
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: rem(32px);
+        }
+
+        h1 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+	}
+}

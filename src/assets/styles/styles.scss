@@ -10,6 +10,12 @@
 @import 'basics/layout';
 
 // COMPONENTS
-
+@import 'cmps/headerApp';
+@import 'cmps/introHomePage';
+@import 'cmps/menu';
+@import 'cmps/itemPreview';
+@import 'cmps/menuList';
+@import 'cmps/moreIntroHomePage';
 
 // PAGES
+@import 'pages/homePage';
